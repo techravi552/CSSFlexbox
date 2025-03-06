@@ -1,0 +1,36 @@
+      
+        .container {
+            display: flex;
+            justify-content: space-between;
+            /* padding: 20px; */
+        }
+        .box {
+            width: 48%;
+            padding: 15px;
+            border: 1px solid #9d9191;
+            border-radius: 5px;
+        }
+        .box h2 {
+            font-size: 18px;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .item {
+            width: 48%;
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 5px;
+            height: 100px;
+            background-color: rgb(28, 27, 26);
+        }
+        .link {
+            margin-top: 10px;
+            display: block;
+            color: blue;
+            text-decoration: none;
+        }

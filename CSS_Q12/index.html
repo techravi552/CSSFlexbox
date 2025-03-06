@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="flexContainer">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+
+    <button class="column-layout" onclick="changeLayout()">Change to Column Layout</button>
+
+    <script>
+        function changeLayout() {
+            document.getElementById('flexContainer').style.flexDirection = 'column';
+        }
+    </script>
+</body>
+</html>
